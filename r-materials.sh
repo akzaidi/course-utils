@@ -14,12 +14,13 @@ sh ./create-users.sh
 
 # download github repo for course materials
 
-git clone https://github.com/akzaidi/Cognizant-R.git /datadrive/
-cp /datadrive/Cognizant-R/MRS\ for\ SAS\ Users.ipynb /home/alizaidi/notebooks
+git clone https://github.com/akzaidi/Cognizant-R.git /datadrive/Cognizant-R
+mkdir /datadrive/notebooks
+cp /datadrive/Cognizant-R/MRS\ for\ SAS\ Users.ipynb /notebooks
 
 # share notebook to all users
 
 chmod 755 ./distribute_materials.csh
-csh ./distribute_materials.csh /home/alizaidi/notebooks
+csh ./distribute_materials.csh /datadrive/notebooks
 
 rm -f nyctaxidata.zip
