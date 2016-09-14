@@ -10,7 +10,7 @@ unzip datadrive/data/ZillowNeighborhoods-NY.zip
 # create users
 
 chmod 755 ./create-users.sh
-./create-users.sh
+sh ./create-users.sh
 
 # download github repo for course materials
 
