@@ -24,3 +24,5 @@ chmod 755 ./distribute_materials.csh
 csh ./distribute_materials.csh /datadrive/notebooks
 
 rm -f nyctaxidata.zip
+
+Rscript /datadrive/Cognizant-R/0-pkgs-prereqs.R
