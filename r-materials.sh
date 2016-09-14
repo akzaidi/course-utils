@@ -25,4 +25,8 @@ csh ./distribute_materials.csh /datadrive/notebooks
 
 rm -f nyctaxidata.zip
 
+# install libgeos dependency
+yum install -y geos geos-devel
+
+# install R packages
 Rscript /datadrive/Cognizant-R/0-pkgs-prereqs.R
