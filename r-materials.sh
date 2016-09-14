@@ -4,8 +4,8 @@
 wget http://alizaidi.blob.core.windows.net/training/nyctaxidata.zip
 mkdir /datadrive/data
 chmod -R 0777 /datadrive/data
-unzip nyctaxidata.zip -d /datadrive/
-unzip datadrive/ZillowNeighborhoods-NY.zip
+unzip nyctaxidata.zip -d /datadrive/data
+unzip datadrive/data/ZillowNeighborhoods-NY.zip
 
 # create users
 
